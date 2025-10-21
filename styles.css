@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    min-height: 85vh;
+    background: rgba(0,0,0,0.3);
+}
+
+.logo {
+width: 100px;
+
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 4%;
+}
+
+.nav-links li{
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 22px;
+    font-size: 20px;
+}
+.texto-central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-central h2{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+
+.texto-central p{
+    color: white;
+    font-weight: bold;
+    font-family: italic;
+    text-align: center;
+    font-size: 20px;
+}
+
+.video {
+position: absolute;
+width: 100%;
+height: 85%;
+top: 0;
+left: 0;
+object-fit: cover;
+z-index: -1;
+}
+
+/*sobre nosotros*/
+.container {
+    margin: auto;
+    display: grid;
+    place-items: center; /* Centra horizontal y verticalmente */
+    padding: 20px; /* Espaciado en el contenedor */
+}
+
+.section-2 {
+    width: 80%; /* Aumenta el ancho para más espacio */
+    max-width: 1200px; /* Ancho máximo */
+    margin: auto;
+    padding: 50px 0; /* Espaciado superior e inferior */
+    background-color: #f8f9fa; /* Fondo claro para contrastar */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
+
+.section-2title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(138, 83, 49);
+    font-weight: bold;
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.us {
+    display: flex; /* Usamos flexbox */
+    align-items: center; 
+    justify-content: space-between; /* Espaciado entre elementos */
+}
+
+.us-text {
+    width: 50%; /* Aumenta el ancho para un mejor balance */
+    padding: 0 20px; /* Espaciado lateral */
+}
+
+.us-p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.us-img {
+    width: 40%; /* Ajusta el ancho de la imagen */
+}
+
+.img-img {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Añade sombra */
+}
+
+.titu {
+    font-weight:bold ;
+    text-align: center; /* Centra el texto */
+    color: rgb(138, 83, 49); /* Color café oscuro */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fuente */
+    font-size: 36px; /* Tamaño de la fuente */
+    margin: 20px 0; /* Espaciado arriba y abajo */
+}
+
+.container {
+    max-width: 1200px; /* Establece un ancho máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Añade un poco de espacio alrededor */
+}
+
+.row {
+    display: grid; /* Usamos grid para la disposición */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    gap: 20px; /* Espaciado entre las columnas */
+}
+
+.col {
+    background-color: #32b165; /* Color de fondo suave */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(45, 131, 95, 0.1); /* Sombra sutil */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.col2 {
+    background-color: #ffffff; /* Color de fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.carousel-inner img {
+    max-height: 450px; /* Ajusta la altura máxima según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+}
+
+/* Mantén tu CSS existente */
+.footer {
+    background-color: #28a745; /* Color verde para todo el footer */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    position: relative; /* Posicionamiento relativo */
+    bottom: 0; /* Alinea el footer en la parte inferior */
+}
+
+.container {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+.footer-logo {
+    max-width: 100px; /* Tamaño menor para el logo */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+.button-container {
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+.footer-bottom {
+    color: white; /* Color del texto */
+}
+
+.footer-bottom p {
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+/* Clase personalizada para botones café */
+.btn-cafe {
+    background-color: #7B3F00; /* Color café */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    margin: 5px; /* Espaciado entre botones */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Elimina el subrayado */
+    transition: background-color 0.3s; /* Transición suave al pasar el ratón */
+}
+
+/* Efecto hover para los botones café */
+.btn-cafe:hover {
+    background-color: #A0522D; /* Color más claro al pasar el ratón */
+}
